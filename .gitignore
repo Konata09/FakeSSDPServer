@@ -1,0 +1,7 @@
+.idea
+*.exe
+bin
+pkg
+*.db
+*.sql
+*.bat
