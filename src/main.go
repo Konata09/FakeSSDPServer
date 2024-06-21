@@ -83,7 +83,7 @@ func main() {
 	ad, err := ssdp.Advertise(
 		"upnp:rootdevice",
 		"uuid:935607b0-243b-11e9-8000-e061d673a367::upnp:rootdevice",
-		"http://192.168.13.4:10000/",
+		"http://192.168.11.4:10000/",
 		"Windows-NT/10.0 UPnP/1.0 Media-Rendering-System/1.0 Fake-SSDP-Server/1.0\r\nX-AV-Physical-Unit-Info: pa=\"IZUMIKONATA: MediaGo\";pl=;",
 		1800)
 	if err != nil {
